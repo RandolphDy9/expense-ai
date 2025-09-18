@@ -2,9 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='relative overflow-hidden bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 border-t border-gray-100/50 dark:border-gray-700/50'>
-      {/* Gradient accent line */}
-      <div className='absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500'></div>
+    <footer className='relative overflow-hidden bg-gray-300 dark:bg-gray-800'>
 
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mb-8'>
