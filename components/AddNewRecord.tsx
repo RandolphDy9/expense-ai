@@ -90,7 +90,7 @@ const AddRecord = () => {
         className='space-y-6 sm:space-y-8'
       >
         {/* Expense Description and Date */}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-emerald-50/50 to-green-50/50 dark:from-emerald-900/10 dark:to-green-900/10 rounded-xl border border-emerald-100/50 dark:border-emerald-800/50'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 p-3 sm:p-4 bg-gradient-to-r from-emerald-50/50 to-green-50/50 dark:from-emerald-900/10 dark:to-green-900/10 rounded-xl border border-emerald-100/50 dark:border-emerald-800/50'>
           {/* Expense Description */}
           <div className='space-y-1.5'>
             <label
@@ -151,10 +151,7 @@ const AddRecord = () => {
               onFocus={(e) => e.target.showPicker()}
             />
           </div>
-        </div>
 
-        {/* Category Selection and Amount */}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-green-50/50 to-emerald-50/50 dark:from-green-900/10 dark:to-emerald-900/10 rounded-xl border border-green-100/50 dark:border-green-800/50'>
           {/* Category Selection */}
           <div className='space-y-1.5'>
             <label
