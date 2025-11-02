@@ -23,7 +23,7 @@ export default async function HomePage() {
             {/* Welcome section with improved mobile layout */}
             <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-4 sm:p-6 lg:p-8 rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6'>
               {/* User Image - responsive sizing */}
-              <div className='relative flex-shrink-0'>
+              {/* <div className='relative flex-shrink-0'>
                 <Image
                   src={user.imageUrl}
                   alt={`${user.firstName}&#39;s profile`}
@@ -32,7 +32,7 @@ export default async function HomePage() {
                 <div className='absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center'>
                   <span className='text-white text-xs'>✓</span>
                 </div>
-              </div>
+              </div> */}
 
               {/* User Details - responsive text and layout */}
               <div className='flex-1 text-center sm:text-left'>
